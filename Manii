@@ -516,6 +516,8 @@ def pilih_super():
 		except:
 			pass
 		
+		
+		
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;92mSmartMirza\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
@@ -524,7 +526,21 @@ def pilih_super():
 	print"\033[1;92mTotal OK/\x1b[1;97mCP \033[1;93m: \033[1;92m"+str(len(oks))+"\033[1;96m/\033[1;96m"+str(len(cekpoint))
 	print """
   HO GIA TU MANI KA FAN
-  
+  ⊂ヽ
+Print"\033[1;96m$]  ＼＼  Λ＿Λ
+　Print"\033[1;96m$]    Λ＿Λ　 ＼( ˘ω˘ )
+　Print"\033[1;96m$]　　 > ⌒ヽ
+　　Print"\033[1;96m$]　/ 　 へ＼
+　Print"\033[1;96m$]　 /　　/　＼＼
+Print"\033[1;96m$]　 ﾚ　ノ　　 ヽ_つ
+Print"\033[1;96m$]　　/　/
+Print"\033[1;96m$]　 /　/|
+Print"\033[1;96m$]　(　(ヽ
+Print"\033[1;98m $]　|　|、 \
+Print"\033[1;96m$]　| 丿  \⌒\
+　print"\033 [1;96$]| |　    )  /
+Print"\033[1;96m$] ノ )       Lﾉ
+Print"\033 [1;92m$](_／
        acha hun  CP ali idzz 7 din baad login kree
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
 : \033[1;92m ....MIRZA MANI Creations....... \033[1;97m :
